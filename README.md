@@ -1,5 +1,5 @@
 
-# 🧬 Predicting TP53 Mutation-like Activity in Breast Cancer Using Gene Expression  
+# Predicting TP53 Mutation-like Activity in Breast Cancer Using Gene Expression  
 
 **Status**: This project is for learning purposes only — not intended for clinical or publication use.
 
@@ -26,7 +26,7 @@ To predict **TP53 mutation-like activity** in breast cancer samples based on a c
 ## 🛠️ Tools & Libraries Used  
 - Python  
 - Google Colab  
-- `pandas`, `numpy`, `matplotlib`, `seaborn`  
+- `pandas`, `numpy`, `matplotlib`, `seaborn`,`GEOparse`  
 - `scikit-learn` (RandomForestClassifier, LogisticRegression, SVM)  
 
 ---
@@ -99,7 +99,7 @@ These genes are known downstream targets of TP53 and reflect its transcriptional
 
 ---
 
-## 📌 Citation  
+## Citation  
 **Dataset citation**:  
 Wang Y, et al. (2005). Gene-expression profiles to predict distant metastasis of lymph-node-negative primary breast cancer. *Lancet*. [PMID: 15897688]  
 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2034)
